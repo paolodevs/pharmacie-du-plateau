@@ -1,0 +1,11 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand"><a class="brand" href="index.html" data-transition><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M9 2.8h6v6.1h6.1v6.2H15v6.1H9v-6.1H2.9V8.9H9V2.8Z" fill="currentColor"/><path d="M17.8 4.5c1.9.2 2.8 1.1 3 3" stroke="#f58220" stroke-width="1.2" stroke-linecap="round"/></svg></span><span class="brand-copy"><span class="brand-name">Pharmacie du Plateau</span><span class="brand-country">Bénin · « Prendre soin du vivant »</span></span></a><p class="small" style="max-width:36ch;margin-top:18px;color:var(--muted)">Informations de proximité. Les données signalées [à confirmer] doivent être validées avant publication.</p><svg class="draw-line footer-route" viewBox="0 0 240 36" aria-hidden="true"><path d="M4 25c35-24 48-19 73-8s37 16 58 0 50-14 101 0" fill="none" stroke="#f58220" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+      <div class="footer-links"><span class="footer-title">La pharmacie</span><a href="presentation.html" data-transition>Présentation</a><a href="horaires.html" data-transition>Horaires &amp; gardes</a><a href="catalogue.html" data-transition>Catalogue informatif</a><a href="miel.html" data-transition>Le miel · produit alimentaire</a></div>
+      <div class="footer-links"><span class="footer-title">Informations</span><a href="sensibilisation.html" data-transition>Sensibilisation</a><a href="contact.html" data-transition>Contact</a><a href="mentions-legales.html" data-transition>Mentions légales</a><a href="confidentialite.html" data-transition>Confidentialité</a></div>
+      <div class="footer-links"><span class="footer-title">Espaces de démonstration</span><a href="connexion.html" data-transition>Client</a><a href="connexion-pro.html" data-transition>Professionnel</a><a href="admin.html" data-transition>Administration</a><span class="small" style="color:var(--muted)">Aucun compte ou traitement réel n'est activé.</span></div>
+    </div>
+    <div class="footer-bottom"><span>© <span data-current-year></span> Pharmacie du Plateau · Prototype d'information</span><span><a href="mentions-legales.html" data-transition>Mentions</a> · <a href="confidentialite.html" data-transition>Données &amp; confidentialité</a></span></div>
+  </div>
+</footer>

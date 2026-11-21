@@ -1,0 +1,14 @@
+@extends('layouts.admin')
+
+@section('title', 'Gestion des horaires & gardes · Pharmacie du Plateau')
+@section('description', 'Écran de préparation du planning hebdomadaire, du calendrier de garde et des fermetures exceptionnelles.')
+@section('page', 'admin-planning')
+@section('crumb', 'Gestion des horaires & gardes')
+@section('heading', 'Gestion des horaires & gardes')
+@section('lead', 'Écran de préparation du planning hebdomadaire, du calendrier de garde et des fermetures exceptionnelles.')
+
+@section('content')
+@verbatim
+<div class="notice notice-warning"><span class="notice-icon">i</span><p>Le formulaire ne modifie pas le site. Les horaires, gardes, fermetures et date de mise à jour doivent être renseignés et validés par la pharmacie.</p></div><div class="table-toolbar"><h2 style="font-size:1.8rem">Planning hebdomadaire</h2><span class="badge">Dernière mise à jour : [à confirmer]</span></div><div class="data-table-wrap"><table class="data-table"><thead><tr><th>Jour</th><th>Ouverture matin</th><th>Fermeture midi</th><th>Réouverture</th><th>Fermeture soir</th></tr></thead><tbody><tr><th scope="row">Lundi</th><td>[à confirmer]</td><td>[à confirmer]</td><td>[à confirmer]</td><td>[à confirmer]</td></tr><tr><th scope="row">Mardi</th><td>[à confirmer]</td><td>[à confirmer]</td><td>[à confirmer]</td><td>[à confirmer]</td></tr><tr><th scope="row">Mercredi</th><td>[à confirmer]</td><td>[à confirmer]</td><td>[à confirmer]</td><td>[à confirmer]</td></tr><tr><th scope="row">Jeudi</th><td>[à confirmer]</td><td>[à confirmer]</td><td>[à confirmer]</td><td>[à confirmer]</td></tr><tr><th scope="row">Vendredi</th><td>[à confirmer]</td><td>[à confirmer]</td><td>[à confirmer]</td><td>[à confirmer]</td></tr><tr><th scope="row">Samedi</th><td>[à confirmer]</td><td>[à confirmer]</td><td>[à confirmer]</td><td>[à confirmer]</td></tr><tr><th scope="row">Dimanche</th><td>[à confirmer]</td><td>[à confirmer]</td><td>[à confirmer]</td><td>[à confirmer]</td></tr></tbody></table></div><form class="form-panel" data-demo-form style="margin-top:20px"><h3>Modifier le planning · démo</h3><div class="field-grid"><div class="field"><label for="planning-start">Date d’application</label><input id="planning-start" type="date" required></div><div class="field"><label for="planning-update">Date de mise à jour</label><input id="planning-update" type="date" required></div></div><div class="field"><label for="exception">Fermeture exceptionnelle</label><textarea id="exception" placeholder="Période et information à confirmer"></textarea></div><button class="button" type="submit">Valider en démonstration</button><p class="form-status" data-form-status role="status"></p></form><div class="notice notice-warning" style="margin-top:18px"><span class="notice-icon">i</span><p>Le statut du jour ne garantit ni la présence du personnel ni la disponibilité d’un produit.</p></div>
+@endverbatim
+@endsection

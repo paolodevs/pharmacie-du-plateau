@@ -1,0 +1,10 @@
+@extends('layouts.app')
+
+@section('title', 'Sensibilisation · Pharmacie du Plateau')
+@section('description', 'Des ressources d’information générale à lire avec discernement — elles ne constituent ni un diagnostic ni une prescription.')
+
+@section('content')
+@verbatim
+<main id="main-content" data-page="sensibilisation"><section class="page-hero"><div class="container"><div class="breadcrumbs"><a href="index.html" data-transition>Accueil</a><span aria-hidden="true">/</span><span>Prévention générale</span></div><span class="eyebrow reveal">Prévention générale</span><h1 class="display-title page-title" data-split-title>Sensibilisation</h1><p class="lead reveal">Des ressources d’information générale à lire avec discernement — elles ne constituent ni un diagnostic ni une prescription.</p></div></section><section class="section"><div class="container"><div class="notice notice-warning"><span class="notice-icon" aria-hidden="true">i</span><p>Les contenus de cette rubrique relèvent de la prévention générale. Ils ne remplacent pas une consultation et ne constituent ni diagnostic ni prescription.</p></div><div class="section-heading" style="margin-top:42px"><div><span class="eyebrow">À lire</span><h2>Articles de sensibilisation</h2><p>Chaque publication doit être validée par la pharmacie avant sa mise en ligne.</p></div></div><div class="card-grid two"><a class="surface-card reveal" href="article-prevention.html" data-transition data-tilt data-cursor-label><img class="card-image" src="/manus-storage/async-images/SwPk66Db0gi2QLQ1Q1i4Rx/image-3.webp" alt="Illustration botanique décorative" loading="lazy"><h3>Bien s’informer avant une consultation</h3><p>Repères généraux pour préparer ses questions et privilégier un échange avec un professionnel.</p><span class="card-footer"><span>Lire l’article</span><span aria-hidden="true">↗</span></span></a><article class="surface-card"><span class="chip">À valider</span><h3>Autres publications</h3><p>Les prochains sujets, leur source et leur calendrier restent à confirmer par l’équipe.</p><span class="card-footer">Brouillon non publié</span></article></div></div></section></main>
+@endverbatim
+@endsection

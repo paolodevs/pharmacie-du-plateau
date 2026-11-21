@@ -1,0 +1,10 @@
+@extends('layouts.app')
+
+@section('title', 'Transmettre la demande · Pharmacie du Plateau')
+@section('description', 'Préparer une transmission à un destinataire autorisé avec un motif et un historique conservé.')
+
+@section('content')
+@verbatim
+<main id="main-content" data-page="transmission-pro"><section class="page-hero"><div class="container"><div class="breadcrumbs"><a href="index.html" data-transition>Accueil</a><span aria-hidden="true">/</span><span>Espace professionnel · démonstration</span></div><span class="eyebrow reveal">Espace professionnel · démonstration</span><h1 class="display-title page-title" data-split-title>Transmettre la demande</h1><p class="lead reveal">Préparer une transmission à un destinataire autorisé avec un motif et un historique conservé.</p></div></section><section class="section"><div class="narrow"><div class="notice notice-warning" style="margin-bottom:20px"><span class="notice-icon">i</span><p>La transmission réelle exige une authentification par rôle, un destinataire autorisé et une notification sécurisée. Cette page n’envoie rien.</p></div><form class="form-panel" data-demo-form><div class="field"><label for="transfer-ref">Référence de démonstration</label><input id="transfer-ref" value="EXEMPLE-DEMO-01" readonly></div><div class="field"><label for="transfer-recipient">Destinataire autorisé</label><select id="transfer-recipient" required><option value="">Choisir un destinataire à confirmer</option><option>Destinataire autorisé · [à confirmer]</option></select></div><div class="field"><label for="transfer-reason">Motif de transmission</label><textarea id="transfer-reason" required></textarea></div><div class="checkbox-row"><input id="transfer-history" type="checkbox" required><label for="transfer-history">Confirmer que l’action doit être historisée et notifiée au destinataire dans le service réel.</label></div><button class="button" type="submit">Préparer · démo</button><p class="form-status" data-form-status role="status"></p></form></div></section></main>
+@endverbatim
+@endsection
